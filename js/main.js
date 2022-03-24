@@ -9,7 +9,7 @@ const input = getEl('.Input__Captcha')[0]
 button.addEventListener('click', (e)=>{
   e.preventDefault()
   const num = Math.floor(Math.random() * 4)+1;
-  if(input.value === 'VGJHM'){
+  if(input.value === 'VGJH1M'){
 
     image.src = `./assets/chigui${num}.jpeg`
     error.style.display = 'none'
